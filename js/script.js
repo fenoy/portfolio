@@ -9,6 +9,9 @@ const email = user + "@" + domain;
 document.addEventListener("DOMContentLoaded", () => {
   const emailSpan = document.getElementById("email");
   if (emailSpan) {
-    emailSpan.innerHTML = `<a href="mailto:${email}">${email}</a>`;
+    const encoded = "ZmVub3kuYWRyaWE=";
+    const domain = "gmail.com";
+    const user = atob(encoded);
+    emailSpan.innerHTML = `<a href="mailto:${user}@${domain}">${user}@${domain}</a>`;
   }
 });
