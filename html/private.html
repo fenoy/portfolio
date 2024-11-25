@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adrià Fenoy - Private Page</title>
+  <title>Adrià Fenoy - Private Area</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -16,20 +16,24 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="blog.html">Blog</a></li>
-      <li><a href="private.html">Private Page</a></li>
+      <li><a href="private.html">Private Area</a></li>
     </ul>
   </nav>
-  <section>
-    <h2>Private Page</h2>
-    <p>This section is under construction.</p>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <span id="email"></span></p>
-    <script src="../js/script.js"></script>
-  </section>
+  <div id="protected-content" style="display:none;">
+    <section>
+      <h2>Private Area</h2>
+      <p>Welcome to the private area! This is where secure content can be displayed.</p>
+    </section>
+  </div>
+  <div id="password-prompt">
+    <h2>Enter Password</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button>Submit</button>
+  </div>
   <footer>
     <p>© 2024 Adrià Fenoy. All Rights Reserved.</p>
   </footer>
+  <script src="../js/private.js"></script>
+  <script src="../js/common.js"></script>
 </body>
 </html>
