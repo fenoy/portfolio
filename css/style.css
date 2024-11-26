@@ -53,3 +53,17 @@ footer {
   background: #1c1c1e; /* Matches header for visual cohesion */
   color: #ffffff; /* White text for simplicity */
 }
+
+button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0073e6;
+}
