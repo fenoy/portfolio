@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #e8f1f8; /* Light modern blue background */
-  color: #2b2d42; /* Darker, modern gray for text */
+  background-color: #f7f9fc; /* Soft off-white for a clean background */
+  color: #1c1c1e; /* Dark gray for high contrast and readability */
 }
 
 header {
   text-align: center;
   padding: 2em;
-  background: #2b2d42; /* Dark slate blue-gray */
-  color: #edf2f4; /* Soft white for contrast */
+  background: #1c1c1e; /* Deep gray for professionalism */
+  color: #ffffff; /* Crisp white for contrast */
 }
 
 nav ul {
@@ -29,27 +29,27 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #2b2d42; /* Matches body text */
-  font-weight: 600; /* Bold for emphasis */
+  color: #1c1c1e; /* Matches body text */
+  font-weight: 500; /* Medium weight for a balanced emphasis */
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #ef233c; /* Vibrant red for hover effect */
+  color: #0073e6; /* Subtle blue for a modern accent */
 }
 
 section {
   padding: 2em;
   margin: 2em auto;
   background: #ffffff; /* Clean white for sections */
-  border-radius: 8px; /* Subtle rounded corners for modern feel */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for elegance */
-  max-width: 800px; /* Limit width for readability */
+  border-radius: 6px; /* Slight rounding for a minimalist touch */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
+  max-width: 800px; /* Restrict width for better readability */
 }
 
 footer {
   text-align: center;
   padding: 1em;
-  background: #2b2d42; /* Matches header for consistency */
-  color: #edf2f4; /* Matches header text */
+  background: #1c1c1e; /* Matches header for visual cohesion */
+  color: #ffffff; /* White text for simplicity */
 }
