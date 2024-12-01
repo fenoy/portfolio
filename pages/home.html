@@ -15,17 +15,15 @@
   <div id="navbar"></div>
 
   <!-- Hero Section -->
-  <section id="hero" style="text-align: center; padding: 50px 20px; background-color: #f9f9f9;">
-    <img src="../files/me.png" alt="Adrià Fenoy" style="width: 150px; height: 150px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  </section>
-
-  <!-- About Me Section -->
   <section id="about" style="padding: 40px 20px;">
-    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-      <h2>About Me</h2>
-      <p style="line-height: 1.8;">
-        Welcome! I’m Adrià Fenoy, a passionate Machine Learning Engineer with a Ph.D. in Computer Science. I specialize in developing innovative solutions in artificial intelligence, deep learning, and optimization. My mission is to transform complex problems into meaningful, data-driven insights. Whether it’s advancing environmental sustainability, creating intelligent multi-agent systems, or mentoring future data scientists, I thrive on pushing the boundaries of what’s possible.
-      </p>
+    <div style="max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 20px;">
+      <img src="../img/me.png" alt="Adrià Fenoy" style="width: 200px; border-radius: 50%; flex-shrink: 0;">
+      <div>
+        <h2>About Me</h2>
+        <p style="line-height: 1.8;">
+          Welcome! I’m Adrià Fenoy, a passionate Machine Learning Engineer with a Ph.D. in Computer Science. I specialize in developing innovative solutions in artificial intelligence, deep learning, and optimization. My mission is to transform complex problems into meaningful, data-driven insights. Whether it’s advancing environmental sustainability, creating intelligent multi-agent systems, or mentoring future data scientists, I thrive on pushing the boundaries of what’s possible.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -49,7 +47,13 @@
       </div>
     </div>
   </section>
-  
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <span id="email"></span></p>
+    <script src="../js/common.js"></script>
+  </section>
+
   <!-- Load footer -->
   <div id="footer"></div>
 
